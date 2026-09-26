@@ -98,7 +98,7 @@ components:
       properties:
         status:
           type: string
-          description: "ok" when the orchestrator can serve requests.
+          description: Value is "ok" when the orchestrator can serve requests.
           enum: [ok]
     Address:
       type: object
